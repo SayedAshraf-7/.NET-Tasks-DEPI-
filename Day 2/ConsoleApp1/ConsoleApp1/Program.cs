@@ -181,6 +181,21 @@ internal class Program
         // practice to use int.TryParse();
         #endregion
 
+        #region what meant by Csharp is managed code 
+
+        /*C# is called managed code because C# programs normally execute
+        under the .NET runtime, which manages memory and provides services such as
+        garbage collection, type safety, and exception handling.*/
+
+        #endregion
+
+        #region what meant by struct is considered like class before
+        //becuase struct has the same use-cases of the class is to create a prototypes
+        // for new data types or new objects exist in the system
+        // but the difference between them now that struct is value type
+        // class is reference type
+
+        #endregion
 
     }
 
