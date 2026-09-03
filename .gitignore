@@ -9,6 +9,16 @@
 *.userosscache
 *.sln.docstates
 
+
+bin/
+obj/
+.vs/
+
+*.user
+*.suo
+
+.idea/
+
 # Build results
 [Bb]in/
 [Oo]bj/
