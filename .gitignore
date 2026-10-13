@@ -45,3 +45,53 @@ TestResults/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+
+# Build output
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# NuGet packages
+*.nupkg
+*.snupkg
+
+# Test results
+**/TestResults/
+
+# Logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Publish output
+**/publish/
+**/artifacts/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# ASP.NET Core local settings (if they contain local secrets)
+appsettings.Local.json
